@@ -1,0 +1,5 @@
+Tasks :cleanTest :test
+
+Arguments    --tests "TaskTest.*"
+
+TODOIS_TOKEN={api key из авторизованного аккаунта} для него сейчас взяты id-ки проекта и inbox
