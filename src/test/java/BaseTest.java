@@ -34,6 +34,7 @@ public class BaseTest {
                 .log(LogDetail.ALL)
                 .build();
         responseBadRequestSpec = new ResponseSpecBuilder()
+                .expectStatusCode(HttpStatus.SC_BAD_REQUEST)
                 .expectContentType(ContentType.TEXT)
                 .log(LogDetail.ALL)
                 .build();
